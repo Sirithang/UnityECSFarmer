@@ -1,0 +1,8 @@
+{
+    "name": "Gameplay",
+    "references": ["Unity.Addressables", "Unity.ResourceManager"],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

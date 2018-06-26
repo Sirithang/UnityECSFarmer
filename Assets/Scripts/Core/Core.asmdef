@@ -1,0 +1,13 @@
+{
+    "name": "Core",
+    "references": [
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

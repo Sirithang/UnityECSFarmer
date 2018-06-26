@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  pathForAsset: Assets/AddressableAssetsData/AddressableAssetSettings.asset
+  m_groups:
+  - name: Built In Data
+    guid: 10d0acf2417b11b44b72d74fc6ceb0a0
+    m_serializeEntries:
+    - m_guid: Resources
+      m_address: Resources
+      m_readOnly: 1
+      m_serializedLabels: []
+    - m_guid: EditorSceneList
+      m_address: EditorSceneList
+      m_readOnly: 1
+      m_serializedLabels: []
+    processor: {fileID: 11400000, guid: 10d0acf2417b11b44b72d74fc6ceb0a0, type: 2}
+    isDefault: 0
+    readOnly: 1
+  - name: Default Local Group
+    guid: 73ce0f32c39eba04fbe14bab963fd704
+    m_serializeEntries:
+    - m_guid: 833f02010e24121448772317b086695c
+      m_address: player
+      m_readOnly: 0
+      m_serializedLabels: []
+    - m_guid: 442fef3439d9e0144819d8c15eb267fd
+      m_address: playerAnimation
+      m_readOnly: 0
+      m_serializedLabels: []
+    processor: {fileID: 11400000, guid: 73ce0f32c39eba04fbe14bab963fd704, type: 2}
+    isDefault: 1
+    readOnly: 0
+  m_buildSettings:
+    m_compression:
+      compression: 3
+      level: 5
+      blockSize: 131072
+    m_compileScriptsInVirtualMode: 0
+    m_bundleBuildPath: Temp/AddressableAssetsBundles
+  m_profileSettings:
+    m_profiles:
+    - m_inheritedParent: 
+      m_id: b1137d23538a9884c89a53dff83900b4
+      m_profileName: Default
+      m_values:
+      - m_id: 24839629ca3fce84da3e03dc555f7143
+        m_value: Assets/StreamingAssets
+      - m_id: defa65951fc2c974890af94c1da9bbf1
+        m_value: file://{UnityEngine.Application.streamingAssetsPath}
+      - m_id: 3e12f5f979d17564981add6eb0c5bc85
+        m_value: ServerData/[UnityEditor.EditorUserBuildSettings.activeBuildTarget]
+      - m_id: b0c2e6a81e1d287478990e12087c499c
+        m_value: http://localhost/[UnityEditor.EditorUserBuildSettings.activeBuildTarget]
+      - m_id: 9d9201fb3e81d134da3bb6bfe45e859b
+        m_value: 1
+      - m_id: 55cfb37350a01214d9d74899ce05a000
+        m_value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+    m_profileEntryNames:
+    - id: 2cd68fe1083c1b84ebc09c3d123652da
+      name: <custom>
+      inlineUsage: 1
+    - id: 24839629ca3fce84da3e03dc555f7143
+      name: LocalBuildPath
+      inlineUsage: 0
+    - id: defa65951fc2c974890af94c1da9bbf1
+      name: LocalLoadPrefix
+      inlineUsage: 0
+    - id: 3e12f5f979d17564981add6eb0c5bc85
+      name: RemoteBuildPath
+      inlineUsage: 0
+    - id: b0c2e6a81e1d287478990e12087c499c
+      name: RemoteLoadPrefix
+      inlineUsage: 0
+    - id: 9d9201fb3e81d134da3bb6bfe45e859b
+      name: ContentVersion
+      inlineUsage: 0
+    - id: 55cfb37350a01214d9d74899ce05a000
+      name: BuildTarget
+      inlineUsage: 0
+  m_labelTable:
+    m_labelNames:
+    - default
+  m_activeProfileId: b1137d23538a9884c89a53dff83900b4
