@@ -29,13 +29,15 @@ public class Bootloader : MonoBehaviour
         entitiymanager.AddComponent(playerEntity, typeof(Farmer.Core.PlayerInput));
         entitiymanager.AddComponent(playerEntity, typeof(Unity.Transforms.TransformMatrix));
 
+        entitiymanager.AddComponent(playerEntity, typeof(Farmer.Gameplay.PlayerStateSystem.PlayerMoveStateEntryTag));
+
         //needed because we use "stock" sprite rendering, so need to sync our entity position to the transform of the Gameobject
         //linked to the entity. In a perfect futur world, we will have a SpriteRendererComponent to add to the entity to get rid of Gameobject entierly
         entitiymanager.AddComponent(playerEntity, typeof(Unity.Transforms.CopyTransformToGameObject));
 
-        Addressables.LoadAsset<SpriteAnimations>("playerAnimation").Completed += op =>
+        Addressables.LoadAsset<SpriteAnimations>("playerAnimation").Completed += op2 =>
         {
-            entitiymanager.AddSharedComponentData(playerEntity, op.Result.GetAnimation("walk_d"));
+            entitiymanager.AddSharedComponentData(playerEntity, op2.Result.GetAnimation("walk_d"));
         };
     }
 }

@@ -1,6 +1,12 @@
 {
     "name": "Gameplay",
-    "references": ["Unity.Addressables", "Unity.ResourceManager"],
+    "references": [
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Unity.Mathematics",
+        "Unity.Entities",
+        "Core"
+    ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],

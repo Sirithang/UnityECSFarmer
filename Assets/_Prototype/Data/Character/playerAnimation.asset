@@ -13,10 +13,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animations:
   - sprites:
+    - {fileID: 21300156, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
     - {fileID: 21300158, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
     - {fileID: 21300160, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
     - {fileID: 21300162, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
     - {fileID: 21300164, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300166, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300168, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300170, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300172, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    time: 1
+  - sprites:
+    - {fileID: 21300174, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300176, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300178, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300180, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300182, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300184, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300186, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300188, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300190, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    time: 1
+  - sprites:
+    - {fileID: 21300120, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300122, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300124, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300126, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300128, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300130, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300132, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300134, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
+    - {fileID: 21300136, guid: da2f4421c0e186640ba4ca61878bbeb0, type: 3}
     time: 1
   names:
   - walk_d
+  - walk_r
+  - walk_u
